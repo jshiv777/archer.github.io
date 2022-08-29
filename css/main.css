@@ -1,0 +1,214 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+#top_header{
+	background:#000;
+	padding:5px;
+	border-radius:0px 0px 10px 10px;
+	margin-top:-10px;
+}
+#top_header a{
+	color:#fff;
+}
+#top_header a span{
+	background:#fff;
+	color:#000;
+	border-radius:50%;
+	display:inline-block;
+	text-align:center;
+	margin-right:5px;
+	width:25px;
+	height:25px;
+}
+#logo{
+	width:100px;
+	height:100px;
+}
+#logo img{
+	border-radius:50%;
+	border:1px solid black;
+}
+.text-box {
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	right: 15%;
+	color: #fff;
+	text-align: center;
+	transform: translateY(-50%);
+}
+.carousel-item img{
+	width:100%;
+	position:relative;
+}
+.active img{
+	border-radius:0px 0px 100px 0px;
+}
+/* #banner{ */
+	/* margin-top:100px; */
+/* } */
+#archr{
+	min-height:30%;
+}
+#archr img{
+	width:70%;
+}
+.post-slide .post-img{
+    position: relative;
+}
+.post-slide .post-img > a{
+    display:block;
+}
+.post-slide .post-img img{
+    width: 50%;
+	border-radius:100%;
+	height:50%;
+}
+.post-slide .post-img:after{
+    content: "\f065";
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    position: absolute;
+    top:17px;
+    right:0px;
+    color:#fff;
+    opacity: 0;
+    transform: scale(0.8);
+    transition:all 0.3s linear 0s;
+}
+.post-slide .post-title{
+    margin-top: 20px;
+}
+.post-slide .post-title > a{
+    color:#222;
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.post-slide .post-title > a:hover{
+    text-decoration: none;
+    color:#dc005a;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #dc005a;
+    opacity: 1;
+
+}
+.card .card-body .card-title{
+	font-size:20px;
+}
+.card .card-body .card-text{
+	font-size:14px;
+}
+.img_box{
+	position:relative;
+	text-align:center;
+}
+.img_box img{
+	width:80%;
+	border-radius:100%;
+}
+.img_box span{
+	padding:10px;
+	background:black;
+	position:absolute;
+	width:60px;
+	height:60px;
+	top:66%;
+	left:30%;
+	border-radius:100%;
+}
+.img_box span i{
+	color:#fff;
+	font-size:30px;
+	padding:5px;
+}
+.img_box h5{
+	margin-top:3%;
+}
+ .person img{
+	width:100px;
+	margin:0 auto;
+	border-radius:100%;
+}
+.person{
+	border:10px solid silver;
+	background:rgba(240, 240, 240, 0.7);
+}
+.person:hover{
+	border:10px solid rgb(231, 53, 192);
+	background:rgba(231, 53, 192, 0.7);
+	color:#fff;
+	transition:all .5s;
+}
+@media screen and (max-width: 760px){
+   #top_header{
+	margin:0 auto;
+	margin-top:-10px;
+	}
+	#top_header a{
+		font-size:10px;
+	}
+nav a img{
+	width:70%;
+}
+.btn{
+	height:30px;
+	width:100px;
+	font-size:10px;
+}
+.text-wrapper{
+	padding:0px 30px;
+}
+.carousel-inner{
+	margin-top:-30px;
+}
+.text-box{
+	font-size:10px;
+	color:#f1f1f1;
+}
+.post-slide{
+	margin-left:25%;
+	width:50%;
+}
+#archr img{
+	width:50%;
+	margin-left:100px;
+}
+.text-wrapper{
+	font-size:14px;
+}
+.text-wrapper h1{
+	font-size:20px;
+}
+#title h1{
+	font-size:25px;
+	color:silver;
+}
+
+.person{
+	width:250px;
+	height:300px;
+	margin:0 auto;
+}
+.person img{
+	width:20%;
+	margin-left:80px;
+
+}
+.card .card-body .card-text{
+	font-size:10px;
+}
+@media only screen and (min-width: 760px){
+   .post-slide{
+	text-align:center;
+} 
+}
+@media only screen and (min-width: 1000px){
+   
+}
+@media only screen and (min-width: 1300px){
+      
+}
